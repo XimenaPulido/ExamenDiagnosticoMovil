@@ -103,7 +103,6 @@ document.addEventListener("DOMContentLoaded", () => {
         displayProducts(filtered);
     });
 
-o
     function attachCartEvents() {
         document.querySelectorAll(".add-to-cart").forEach(button => {
             button.addEventListener("click", () => {
