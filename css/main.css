@@ -1,0 +1,27 @@
+
+body {
+    background-color: #f1f3f5;
+}
+
+
+.card img {
+    max-height: 140px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.08)!important;
+}
+
+.card-img-top {
+    height: 160px;
+    object-fit: contain;
+    background-color: #f8f9fa;
+}
+
+
+.text-gold {
+    color: #ffc107;
+}
